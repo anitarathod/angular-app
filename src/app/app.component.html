@@ -1,0 +1,13 @@
+<h1> for loops in angular</h1>
+<table border="1">
+  <tr>
+    <td>name</td>
+    <td>age</td>
+    <td>designation</td>
+  </tr>
+  <tr *ngFor="let item of data; let i=index">
+    <td>{{ i }}.{{ item.name }}</td>
+    <td>{{ item.age }}</td>
+    <td>{{  item.designation }}</td>
+  </tr>
+</table>
